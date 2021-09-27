@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h1 {
+    flex: 1;
+    margin: 0;
+  }
+
+  select {
+    border-radius: 0;
+    padding: 0.5rem;
+
+    &:focus,
+    &:focus-within {
+      border-radius: 0;
+      outline-style: solid;
+    }
+  }
+}

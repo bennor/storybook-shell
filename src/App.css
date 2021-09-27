@@ -1,0 +1,21 @@
+:root {
+  --scrollbarWidth: 0.333rem;
+  --scrollbarBg: transparent;
+  --scrollbarThumb: rgba(0, 0, 0, 0.1);
+}
+.scroll {
+  overflow: auto;
+  scrollbar-width: var(--scrollbarWidth);
+  scrollbar-color: var(--scrollbarThumb) var(--scrollbarBg);
+  scroll-behavior: smooth;
+}
+.scroll::-webkit-scrollbar {
+  width: var(--scrollbarWidth);
+}
+.scroll::-webkit-scrollbar-track {
+  background: var(--scrollbarBg);
+}
+.scroll::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbarThumb);
+  border-radius: 0;
+}

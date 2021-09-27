@@ -1,0 +1,21 @@
+.shell {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+
+  margin: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+.content {
+  margin-top: 1rem;
+  flex: 1;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  overflow: hidden;
+}
