@@ -2,6 +2,8 @@
 
 A proof of concept of a wrapper application for Storybook design systems.
 
+Demo: https://storybook-shell.surge.sh
+
 ## Features
 
 - Version selector (assumes `manifest.json` is provided)
